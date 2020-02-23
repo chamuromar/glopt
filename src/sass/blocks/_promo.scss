@@ -1,0 +1,103 @@
+.promo {
+    min-height: 680px;
+    padding: 23px 0 82px 0;
+    background: url("../img/bg1.jpg") center (center/cover) no-repeat;
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_item  {
+            list-style-type: none;
+            a {
+                color: #ffffff;
+                font-family: Roboto;
+                font-size: 15px;
+                font-weight: 400;
+                border-right: 1px dotted rgba($color: #ffffff, $alpha: 0.4);
+                padding-right: 7.5px;
+                padding-left: 7.5px;
+                &:nth-last-child(1) {
+                    border-right: none;
+                }
+                &:hover {
+                    color: #ec644b;
+                }
+            }
+        }
+    }
+    &__question {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: right;
+    }
+    &__phone {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 19px;
+        font-weight: 700;
+        &:hover {
+            color: #ec644b;
+        }
+    }
+    &__header {
+        margin: 9px 0 9px 0 ;
+        text-align: center;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    h1 {
+        color: #ec644b;
+        font-family: "Roboto Condensed";
+        font-size: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 0.8;
+        span {
+            color: #ffffff;
+            font-family: "Roboto Condensed";
+            font-size: 42px;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-align: center; 
+        }
+    }
+    &__line {
+        display: block;
+        margin: 0 auto;
+        margin-top: 38px;
+    }
+    &__wrapper {
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    &__item{
+        position: relative;
+        img {
+            display: block;
+            margin: 0 auto;
+            height: 48px;
+            width: 64px;
+        }
+        
+    }
+    &__item_descr {
+        margin-top: 16px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+        &:nth-child(2) {
+            margin-top: px;
+        }
+    }
+
+}
